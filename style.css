@@ -1,0 +1,121 @@
+body{
+    font-family: "Bangers", cursive;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('/img/cubes.png');
+    background-color: #3790e9;
+}
+.menu ul{
+    display: flex;
+}
+.container ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-left: 32px;
+    margin-right: 10px;
+    color: white;
+}
+.container ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.header h1{
+    color: white;
+    border-left: 5px;
+}
+.parte1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('/img/brushed-alum.png');
+    background-color: #3790e9;
+    padding: 50px;
+}
+.avenger{
+
+    padding: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(63, 63, 63);
+    
+}
+.avenger h1{
+    margin-left: 45px;
+    margin-top:20px ;
+}
+.avenger p{
+    color: red;
+    margin-bottom: 40px;
+    border-left: white solid 80px;
+}
+.avenger ul li a{
+background: rgb(68, 55, 252);
+padding: 12px;
+border-left:white solid 26px;
+}
+.comprar2 ul li a{
+    background-color: red;
+}
+
+
+
+
+
+.intermedio{
+    padding: 50px;
+    background-color: black;
+}
+.intermedio h1{
+    color: yellow;
+    size:50px;
+    margin-left: 600px;
+}
+.intermedio h2{
+    color: yellow;
+    size:50px;
+    margin-left: 550px;
+}
+.intermedio img{
+    padding-left: 150px;
+}
+
+
+
+.segundo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('/img/brushed-alum.png');
+    background-color: #3790e9;
+    padding: 50px;
+}
+.spiderman{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(136, 136, 136);
+}
+.spiderman ul li a{
+    background: rgb(68, 55, 252);
+    padding: 12px;
+    margin-left: 30px;
+    border-radius: 25px;
+    }
+
+.spiderman h1{
+    margin-left: 45px;
+    margin-top:20px ;
+}
+.spiderman p{
+    color: red;
+    margin-bottom: 40px;
+    border-left: white solid 80px;
+}
+.comprar2 ul li a{
+    background-color: red;
+}
